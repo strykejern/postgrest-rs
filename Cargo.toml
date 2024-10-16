@@ -22,4 +22,5 @@ tokio = { version = "1", features = ["full"] }
 serde = { version = "1.0.210", features = ["derive"] }
 
 [features]
+default = ["serde"]
 serde = ["dep:serde_json", "dep:serde"]
